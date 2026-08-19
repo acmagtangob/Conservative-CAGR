@@ -198,6 +198,7 @@ WHERE d.date > s.start_date
 ORDER BY `CAGR (%)` ASC
 LIMIT 1;
 
+-- ===== btc_usd CAGR =====
 WITH start_point AS (
     SELECT
         date AS start_date,
